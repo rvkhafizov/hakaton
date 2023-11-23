@@ -1,0 +1,20 @@
+CREATE TABLE [dbo].[buf](
+	id int identity(1,1),
+	deactivated nvarchar(50), 
+	country_id nvarchar(50),
+	country_title nvarchar(50),
+	city_id nvarchar(50),
+	city_title nvarchar(50),
+	about nvarchar(4000), 
+	activities nvarchar(4000), 
+	books nvarchar(4000), 
+	games nvarchar(4000), 
+	interests nvarchar(4000),
+	education_form nvarchar(4000), 
+	education_status nvarchar(4000), 
+	university nvarchar(4000), 
+	university_name nvarchar(4000), 
+	faculty nvarchar(4000), 
+	faculty_name nvarchar(4000),
+	graduation varchar(4000)
+) 
